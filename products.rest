@@ -1,37 +1,37 @@
-//Hämtr hela arrayen med alla produkter (böcker) 
+// GET All books
 GET http://localhost:3000/products
 ###
  
-//Hämtar en spesifik produkt - om inte produkten finns svarar APIét med 404
+//GET Reading now
 GET http://localhost:3000/products/1234567
 ###
+
+//PUT Update a rewiew
+PUT http://localhost:3000/products/8765467 
+Content-Type: application/json
+
+{
+   "id":"8765467",
+    "Title": "Evelyn Hugos sju äkta män",
+    "Author": "Taylor Jenkins Reid",
+    "Rating": "5/5"
+}
+
+###
  
-//Lägger till en ny produkt 
+//POST Add a new book
 POST  http://localhost:3000/products
 Content-Type: application/json
  
 {
- "id":"1823998",
- "Titel": "Ny bok1",
- "Författare": "Jhon Doe",
- "Pris": 299
+ "id":"",
+   "Title": "",
+   "Author": "",
+   "Rating": ""
 }
 ###
  
-//Uppdaterar en produkt - titel och pris ändrat
-PUT http://localhost:3000/products/1234567 
-Content-Type: application/json
-
-{
-"id": "1234567",
-    "Titel": "Där kräftorna sjunger lalallala",
-    "Författare": "Delia Owens",
-    "Pris": 389,
-    "image": "OnePlus5.png"
-}
-###
-
-//Ta bort en produkt
+//DELETE a book
 DELETE http://localhost:3000/products/1234567
 ###
  
