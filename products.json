@@ -1,24 +1,38 @@
 [
   {
-   "id":"1234567",
-   "Titel": "Där kräftorna sjunger",
-   "Författare": "Delia Owens",
-   "Pris": 189
-  },{
-   "id":"7658490",
-   "Titel": "Det börjar med oss",
-   "Författare": "Colleen Hoover ",
-   "Pris": 199
-  },{
-   "id":"9853099",
-   "Titel": "Det slutar med oss",
-   "Författare": "Colleen Hoover",
-   "Pris": 99
-  },{
-   "id":"8876220",
-   "Titel": "Löpa varg",
-   "Författare": "Kerstin Ekman",
-   "Pris": 99
+    "id": "1234567",
+    "Title": "Där kräftorna sjunger",
+    "Author": "Delia Owens",
+    "Rating": "5/5"
+  },
+  {
+    "id": "7658490",
+    "Title": "Det börjar med oss",
+    "Author": "Colleen Hoover ",
+    "Rating": "4/5"
+  },
+  {
+    "id": "9853099",
+    "Title": "Det slutar med oss",
+    "Author": "Colleen Hoover",
+    "Rating": "4/5"
+  },
+  {
+    "id": "8876220",
+    "Title": "Löpa varg",
+    "Author": "Kerstin Ekman",
+    "Rating": "3/5"
+  },
+  {
+    "id": "8765467",
+    "Title": "Evelyn Hugos sju äkta män",
+    "Author": "Taylor Jenkins Reid",
+    "Rating": "5/5"
+  },
+  {
+    "id": "",
+    "Title": "",
+    "Author": "",
+    "Rating": ""
   }
-  ]
-  
+]
